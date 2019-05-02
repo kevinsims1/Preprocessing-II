@@ -174,7 +174,6 @@ img {
 .nav-sec nav {
   display: flex;
   flex-direction: row-reverse;
-  align-items: baseline;
 }
 .nav-sec nav a {
   padding-right: 1rem;
@@ -242,8 +241,5 @@ img {
 }
 .home header {
   max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   border-bottom: 3px dashed black;
 }
