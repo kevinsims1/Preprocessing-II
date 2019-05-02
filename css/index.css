@@ -169,28 +169,18 @@ img {
   margin: 0 auto;
 }
 .nav-sec {
-  margin: 0;
   border-bottom: 3px dashed black;
 }
-.nav-sec header {
+.nav-sec nav {
   display: flex;
-  align-items: center;
-  padding: 2rem;
   flex-direction: row-reverse;
-  justify-content: flex-start;
-  border-bottom: 3px dashed black;
+  align-items: baseline;
 }
-.nav-sec header nav {
-  justify-content: space-around;
-}
-.nav-sec header nav a {
+.nav-sec nav a {
   padding-right: 1rem;
   color: black;
 }
-.nav-sec header .FB {
-  padding-right: 43rem;
-}
-.nav-sec .fun-bus {
+.fun-bus {
   padding-bottom: 1.4rem;
 }
 .footer {
@@ -249,4 +239,11 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home header {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 3px dashed black;
 }
